@@ -7,3 +7,5 @@ Movie_Grabber.py extracts film information from https://2019.tiffr.com using `bs
 ### Spreadsheet Sample
 
 ![Top 20 Films](./figures/table_screenshot.png)
+
+Without this application, I would not have bought tickets for Jojo Rabbit, Knives Out, Parasite or The Lighthouse, which turned out to be great films at the festival.
