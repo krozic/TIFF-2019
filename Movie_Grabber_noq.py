@@ -7,10 +7,7 @@ from datetime import datetime
 import pandas as pd
 pd.set_option('display.max_columns', None)
 
-if input('Current year? Y/n ') in ['Y', 'y', '']:
-    year = datetime.today().year
-else:
-    year = input('Type year: ')
+year = '2022'
 my_url = f'https://{year}.tiffr.com/shows'
 shows_json = f'https://{year}.tiffr.com/api/{year}/shows.json'
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'}
